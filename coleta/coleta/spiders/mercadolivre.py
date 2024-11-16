@@ -11,4 +11,7 @@ class MercadolivreSpider(scrapy.Spider):
 
         for product in products:
 
-            'brand' = products.css('span.poly-component__brand::text').get()
+            # retornar varias vezes
+            yield{
+                'brand': products.css('span.poly-component__brand::text').get()
+            }
