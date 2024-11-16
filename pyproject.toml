@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "etl-web-scraping-scrapy"
+version = "0.1.0"
+description = "informação sobre vendas"
+authors = ["Sergio Semprebom <sergiosemprebom@gmail.com>"]
+license = "python"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
